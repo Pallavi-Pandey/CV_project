@@ -14,8 +14,8 @@ fps = 30
 clock = pygame.time.Clock()
 
 #Load Images
-Bgimage = pygame.image.load("Resources\Blue_Background.jpg").convert()
-Ballimage = pygame.image.load(r"Resources\aa.png").convert_alpha()
+Bgimage = pygame.image.load("Resources/Blue_Background.jpg").convert()
+Ballimage = pygame.image.load(r"Resources/aa.png").convert_alpha()
 rectBall = Ballimage.get_rect()
 
 rectNew = pygame.Rect(500, 0, 200, 200) 
